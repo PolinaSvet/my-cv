@@ -9,7 +9,6 @@
         <meta content="" name="author"/>
 
         <!-- GLOBAL MANDATORY STYLES -->
-        <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,600,700" rel="stylesheet" type="text/css">
         <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
@@ -58,6 +57,7 @@
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Опыт</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Работы</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Как связаться</a></li>
+								<li class="js_nav-item nav-item"><button class="nav-item-child nav-item-hover open-full-gallery-btn">Галерея</button></li>
                             </ul>
                         </div>
                     </div>
@@ -73,15 +73,26 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="promo-block-divider">
+                        <!--<div class="promo-block-divider">
                             <h1 class="promo-block-title">Полина <br/> Светличная</h1>
                             <p class="promo-block-text">Fullstack Developer</p>
-                        </div>
+                        </div>-->
+						<div class="row">
+							<!-- Левая часть - текст -->
+							<div class="col-md-6 promo-block-divider">
+								<h1 class="promo-block-title">Полина <br/> Светличная</h1>
+								<p class="promo-block-text">Fullstack Developer</p>
+							</div>
+						</div>
                         <ul class="list-inline">
 							<li><a href="https://career.habr.com/polinaiamfine" target="_blank" rel="noopener noreferrer" class="social-icons-new"><img src="img/svg/habr.svg" alt="habr"></a></li>
 							<li><a href="https://github.com/PolinaSvet" target="_blank" rel="noopener noreferrer" class="social-icons-new"><img src="img/svg/github.svg" alt="GitHub"></a></li>
+							<li><a href="doc/PolinaSvetlichnaya.pdf" target="_blank" rel="noopener noreferrer" class="social-icons-new"><img src="img/svg/cv.svg" alt="cv"></a></li>
                         </ul>
                     </div>
+					<div class="col-md-6 promo-block-divider-image">
+						<img src="img/1920x1080/foto01.svg" alt="Полина Светличная" class="img-responsive">
+					</div>
                 </div>
                 <!--// end row -->
             </div>
@@ -312,7 +323,7 @@
                         <div class="col-sm-3 sm-margin-b-30">
                             <div class="text-right sm-text-left">
                                 <h2 class="margin-b-0">Работы</h2>
-                                <p></p>
+                                <p>Технический стек</p>
                             </div>
                         </div>
                         <div class="col-sm-8 col-sm-offset-1">
@@ -366,7 +377,8 @@
             </div>
         </div>
         <!-- End Work -->
-		
+
+
 		<!-- Start Go -->
         <div id="work-go">
             <div class="bg-color-sky-light">
@@ -382,70 +394,72 @@
                         <div class="col-sm-8 col-sm-offset-1">
                             <!-- Masonry Grid -->
 							
-							<div class="dotnav-gallery">
-								<div class="dotnav-gallery-container">
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/go/001.jpg');">
-										<div class="dotnav-gallery-caption">
+							<div class="dotnav-gallery-iner">
+								<div class="dotnav-gallery-container-iner">
+									<div class="dotnav-gallery-slide-iner active" style="background-image: url('img/pic/go/001.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/taskNewsFull.git" target="_blank" rel="noopener noreferrer">https://github.com/PolinaSvet/taskNewsFull.git</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/go/002.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/go/002.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/taskNewsCert.git" target="_blank" rel="noopener noreferrer">https://github.com/PolinaSvet/taskNewsCert.git</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide" style="background-image: url('img/pic/go/003.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/go/003.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/taskRegexp.git" target="_blank" rel="noopener noreferrer">https://github.com/PolinaSvet/taskRegexp.git</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide" style="background-image: url('img/pic/go/004.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/go/004.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/taskStorage.git" target="_blank" rel="noopener noreferrer">https://github.com/PolinaSvet/taskStorage.git</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide" style="background-image: url('img/pic/go/005.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/go/005.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/taskTelnetServerClient.git" target="_blank" rel="noopener noreferrer">https://github.com/PolinaSvet/taskTelnetServerClient.git</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide" style="background-image: url('img/pic/go/006.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/go/006.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/taskDataBase.git" target="_blank" rel="noopener noreferrer">https://github.com/PolinaSvet/taskDataBase.git</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide" style="background-image: url('img/pic/go/007.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/go/007.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/taskShareProjects.git" target="_blank" rel="noopener noreferrer">https://github.com/PolinaSvet/taskShareProjects.git</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide" style="background-image: url('img/pic/go/008.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/go/008.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/taskShareProjects.git" target="_blank" rel="noopener noreferrer">https://github.com/PolinaSvet/taskShareProjects.git</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide" style="background-image: url('img/pic/go/009.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/go/009.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/taskShareProjects.git" target="_blank" rel="noopener noreferrer">https://github.com/PolinaSvet/taskShareProjects.git</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide" style="background-image: url('img/pic/go/010.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/go/010.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/taskShareProjects.git" target="_blank" rel="noopener noreferrer">https://github.com/PolinaSvet/taskShareProjects.git</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide" style="background-image: url('img/pic/go/011.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/go/011.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/englishTrainer.git" target="_blank" rel="noopener noreferrer">https://github.com/PolinaSvet/englishTrainer.git</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide" style="background-image: url('img/pic/go/012.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/go/012.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/englishTrainer.git" target="_blank" rel="noopener noreferrer">https://github.com/PolinaSvet/englishTrainer.git</a>
 										</div>
 									</div>
 								</div>
-								<div class="dotnav-gallery-dots"></div>
+								<button class="nav-btn prev-btn-iner">&lt;</button>
+                    			<button class="nav-btn next-btn-iner">&gt;</button>
+								<div class="dotnav-gallery-dots-iner"></div>
 							</div>
 							
 							<!-- End Masonry Grid -->
@@ -474,94 +488,96 @@
                         <div class="col-sm-8 col-sm-offset-1">
                             <!-- Masonry Grid -->
 							
-							<div class="dotnav-gallery">
-								<div class="dotnav-gallery-container">
+							<div class="dotnav-gallery-iner">
+								<div class="dotnav-gallery-container-iner">
 									<!-- 01 АРМ для роботизированных систем пожаротушения -->
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/01_001.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner active" style="background-image: url('img/pic/cplusplus/01_001.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/QT_HMI.git" target="_blank" rel="noopener noreferrer">АРМ для роботизированных систем пожаротушения. Основной экран.</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/01_002.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/cplusplus/01_002.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/QT_HMI.git" target="_blank" rel="noopener noreferrer">АРМ для роботизированных систем пожаротушения. Диагностика.</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/01_003.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/cplusplus/01_003.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/QT_HMI.git" target="_blank" rel="noopener noreferrer">АРМ для роботизированных систем пожаротушения. Управление.</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/01_004.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/cplusplus/01_004.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/QT_HMI.git" target="_blank" rel="noopener noreferrer">АРМ для роботизированных систем пожаротушения. Настройки.</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/01_005.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/cplusplus/01_005.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/QT_HMI.git" target="_blank" rel="noopener noreferrer">АРМ для роботизированных систем пожаротушения. Журнал.</a>
 										</div>
 									</div>
 									<!-- 02 АРМ систем пожаротушения -->
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/02_001.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/cplusplus/02_001.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/QT_HMI.git" target="_blank" rel="noopener noreferrer">АРМ систем пожаротушения. Основной экран.</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/02_002.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/cplusplus/02_002.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/QT_HMI.git" target="_blank" rel="noopener noreferrer">АРМ систем пожаротушения. Диагностика.</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/02_003.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/cplusplus/02_003.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/QT_HMI.git" target="_blank" rel="noopener noreferrer">АРМ систем пожаротушения. Тренды.</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/02_004.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/cplusplus/02_004.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/QT_HMI.git" target="_blank" rel="noopener noreferrer">АРМ систем пожаротушения. Журнал.</a>
 										</div>
 									</div>
 									<!-- 03 Программа для технологического прогона оптических извещателей пламени -->
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/03_001.png');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/cplusplus/03_001.png');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Программа для технологического прогона оптических извещателей пламени</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/03_002.png');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/cplusplus/03_002.png');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Программа для технологического прогона оптических извещателей пламени</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/03_003.png');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/cplusplus/03_003.png');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Программа для технологического прогона оптических извещателей пламени</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/03_004.png');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/cplusplus/03_004.png');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Программа для технологического прогона оптических извещателей пламени</a>
 										</div>
 									</div>
 									<!-- 04 Программа расчета кабельной продукции -->
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/04_001.png');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/cplusplus/04_001.png');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Программа расчета кабельной продукции</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/04_002.png');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/cplusplus/04_002.png');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Программа расчета кабельной продукции</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/cplusplus/04_003.png');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/cplusplus/04_003.png');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Программа расчета кабельной продукции</a>
 										</div>
 									</div>
 								</div>
-								<div class="dotnav-gallery-dots"></div>
+								<button class="nav-btn prev-btn-iner">&lt;</button>
+                    			<button class="nav-btn next-btn-iner">&gt;</button>
+								<div class="dotnav-gallery-dots-iner"></div>
 							</div>
 							
 							<!-- End Masonry Grid -->
@@ -590,54 +606,56 @@
                         <div class="col-sm-8 col-sm-offset-1">
                             <!-- Masonry Grid -->
 							
-							<div class="dotnav-gallery">
-								<div class="dotnav-gallery-container">
+							<div class="dotnav-gallery-iner">
+								<div class="dotnav-gallery-container-iner">
 									<!-- 01 Журнал данных и отчётность -->
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/csharp/01_001.png');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner active" style="background-image: url('img/pic/csharp/01_001.png');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Журнал данных и отчётность.Журнал событий.</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/csharp/01_002.png');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/csharp/01_002.png');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Журнал данных и отчётность.Сводки.</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/csharp/01_003.png');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/csharp/01_003.png');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Журнал данных и отчётность.Отчёты.</a>
 										</div>
 									</div>
 									<!-- 02 Программа настройки проекта -->
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/csharp/02_001.png');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/csharp/02_001.png');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Программа настройки проекта.</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/csharp/02_002.png');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/csharp/02_002.png');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Программа настройки проекта.</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/csharp/02_003.png');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/csharp/02_003.png');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Программа настройки проекта.</a>
 										</div>
 									</div>
 									<!-- 03 ActiveX-компоненты для SCADA-систем -->
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/csharp/03_001.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/csharp/03_001.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">ActiveX-компоненты для SCADA-систем.Сводки.</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/csharp/03_002.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/csharp/03_002.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">ActiveX-компоненты для SCADA-систем.Отчёты.</a>
 										</div>
 									</div>
 									
 								</div>
-								<div class="dotnav-gallery-dots"></div>
+								<button class="nav-btn prev-btn-iner">&lt;</button>
+                    			<button class="nav-btn next-btn-iner">&gt;</button>
+								<div class="dotnav-gallery-dots-iner"></div>
 							</div>
 							
 							<!-- End Masonry Grid -->
@@ -664,36 +682,38 @@
                         <div class="col-sm-8 col-sm-offset-1">
                             <!-- Masonry Grid -->
 							
-							<div class="dotnav-gallery">
-								<div class="dotnav-gallery-container">
+							<div class="dotnav-gallery-iner">
+								<div class="dotnav-gallery-container-iner">
 									<!-- 01 SCADA -->
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/js/001_01.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner active" style="background-image: url('img/pic/js/001_01.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/VueGoApp.git" target="_blank" rel="noopener noreferrer">Основной экран</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/js/001_02.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/js/001_02.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/VueGoApp.git" target="_blank" rel="noopener noreferrer">Управление</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/js/001_03.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/js/001_03.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/VueGoApp.git" target="_blank" rel="noopener noreferrer">Аварийные сообщения</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/js/001_04.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/js/001_04.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/VueGoApp.git" target="_blank" rel="noopener noreferrer">Тренды</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/js/001_05.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/js/001_05.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="https://github.com/PolinaSvet/VueGoApp.git" target="_blank" rel="noopener noreferrer">Сообщения</a>
 										</div>
 									</div>
 								</div>
-								<div class="dotnav-gallery-dots"></div>
+								<button class="nav-btn prev-btn-iner">&lt;</button>
+                    			<button class="nav-btn next-btn-iner">&gt;</button>
+								<div class="dotnav-gallery-dots-iner"></div>
 							</div>
 							
 							<!-- End Masonry Grid -->
@@ -707,7 +727,7 @@
 		
 		<!-- Start Scada -->
         <div id="work-scada">
-            <div>
+            <div class="bg-color-sky-light">
                 <div class="container content-lg">
                     <div class="row">
                         <div class="col-sm-3 sm-margin-b-30">
@@ -725,47 +745,49 @@
                         <div class="col-sm-8 col-sm-offset-1">
                             <!-- Masonry Grid -->
 							
-							<div class="dotnav-gallery">
-								<div class="dotnav-gallery-container">
+							<div class="dotnav-gallery-iner">
+								<div class="dotnav-gallery-container-iner">
 									<!-- 01 SCADA -->
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/scada/01_001.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner active" style="background-image: url('img/pic/scada/01_001.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Scada project example</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/scada/01_002.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/scada/01_002.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Scada project example</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/scada/01_003.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/scada/01_003.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Scada project example</a>
 										</div>
 									</div>
 									<!-- 02 Panel -->
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/scada/02_001.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/scada/02_001.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Panel project example</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/scada/02_002.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/scada/02_002.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Panel project example</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/scada/02_003.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/scada/02_003.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Panel project example</a>
 										</div>
 									</div>
-									<div class="dotnav-gallery-slide active" style="background-image: url('img/pic/scada/02_004.jpg');">
-										<div class="dotnav-gallery-caption">
+									<div class="dotnav-gallery-slide-iner" style="background-image: url('img/pic/scada/02_004.jpg');">
+										<div class="dotnav-gallery-caption-iner">
 											<a href="#" onclick="return false;" rel="noopener noreferrer">Panel project example</a>
 										</div>
 									</div>
 								</div>
-								<div class="dotnav-gallery-dots"></div>
+								<button class="nav-btn prev-btn-iner">&lt;</button>
+                    			<button class="nav-btn next-btn-iner">&gt;</button>
+								<div class="dotnav-gallery-dots-iner"></div>
 							</div>
 							
 							<!-- End Masonry Grid -->
@@ -776,6 +798,59 @@
             </div>
         </div>
         <!-- End Scada -->
+
+		<!-- Work for -->
+		<div id="work-for">
+			<div>
+				<div class="container content-lg">
+					<div class="row">
+						<div class="col-sm-3 sm-margin-b-30">
+							<div class="text-right sm-text-left">
+								<h2 class="margin-b-0">Ключевые проекты</h2>
+								<p></br>200+ внедрений</p>
+							</div>
+						</div>
+						<div class="col-sm-8 col-sm-offset-1 company">
+							<!-- Первая строка из 4 логотипов -->
+							<div class="row">
+								<div class="col-md-3 col-xs-6 md-margin-b-30">
+									<img src="img/logo/04.png" class="img-responsive" alt="Газпром">
+								</div>
+								<div class="col-md-3 col-xs-6 md-margin-b-30">
+									<img src="img/logo/05.png" class="img-responsive" alt="КТК">
+								</div>
+								<div class="col-md-3 col-xs-6 md-margin-b-30">
+									<img src="img/logo/06.png" class="img-responsive" alt="Транснефть">
+								</div>
+								<div class="col-md-3 col-xs-6 md-margin-b-30">
+									<img src="img/logo/07.png" class="img-responsive" alt="Роснефть">
+								</div>
+							</div>
+							<p></p>
+							<!-- Вторая строка из 4 логотипов -->
+							<div class="row">
+								<div class="col-md-3 col-xs-6 md-margin-b-30">
+									<img src="img/logo/01.png" class="img-responsive" alt="Логотип 3">
+								</div>
+								<div class="col-md-3 col-xs-6 md-margin-b-30">
+									<img src="img/logo/02.png" class="img-responsive" alt="Элна">
+								</div>
+								<div class="col-md-3 col-xs-6 md-margin-b-30">
+									<img src="img/logo/03.png" class="img-responsive" alt="Роскосмос">
+								</div>
+								<!-- Пустая ячейка или добавьте еще один логотип -->
+								<div class="col-md-3 col-xs-6 md-margin-b-30">
+									<!-- Можно оставить пустым или добавить еще один логотип -->
+									<!-- <img src="img/logo/example.png" class="img-responsive" alt="Еще логотип"> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--// end row -->
+				</div>
+			</div>
+		</div>
+		<!-- End Work for -->
             
         <!-- Contact -->
         <div id="contact">
@@ -805,6 +880,7 @@
                                 </div>
 								<div class="col-md-3 col-xs-6">
                                     <ul class="list-inline">
+										<li><a href="doc/PolinaSvetlichnaya.pdf" target="_blank" rel="noopener noreferrer" class="social-icons-new"><img src="img/svg/cv.svg" alt="GitHub"></a></li>
 										<li><a href="https://career.habr.com/polinaiamfine" target="_blank" rel="noopener noreferrer" class="social-icons-new"><img src="img/svg/habr.svg" alt="habr"></a></li>
 										<li><a href="https://github.com/PolinaSvet" target="_blank" rel="noopener noreferrer" class="social-icons-new"><img src="img/svg/github.svg" alt="GitHub"></a></li>
 									</ul>
@@ -847,7 +923,6 @@
         <!-- PAGE LEVEL PLUGINS -->
         <script src="vendor/jquery.easing.js" type="text/javascript"></script>
         <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
-        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
         <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
         <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
         <script src="vendor/jquery.appear.js" type="text/javascript"></script>
