@@ -283,9 +283,11 @@
 }
 
 .promo-block-divider-image {
-    padding-left: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
+    padding-left: 25px;
+    /*display: flex;*/
+    align-items: right;
+    justify-content: right;
+    width: 250px;         
+    height: auto;
+    float: right;
 }
